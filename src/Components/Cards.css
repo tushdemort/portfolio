@@ -1,0 +1,25 @@
+.card{
+    margin: 10rem;
+    margin-top: 10rem;
+    border: rebeccapurple 2px solid;
+    width:20rem;
+    scale:1.1;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+    scale: 1.2;
+    border: rgb(153, 51, 73) 2px solid;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    scale: 1;
+}
+.btn-primary{
+    background: linear-gradient(45deg,rgb(226, 59, 59), rgb(122, 74, 185));
+    margin-left: 5rem;
+    border: none;
+}
+.card-body{
+    background: rgb(43, 36, 46);
+    color: white;
+}

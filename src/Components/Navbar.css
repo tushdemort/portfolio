@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Rubik+Mono+One&display=swap');
+.navbar{
+    background-color: #000 !important;
+    color: white !important;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.brand{
+    transition: all 0.2s ease-in-out;
+    color: white !important;
+    text-decoration: none;
+    font-size: 2rem;   
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.container{
+    scale: 0.5;
+}
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 6rem;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 0.2rem;
+    background: rgb(0, 0, 0) ;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 0.2rem;
+    background: linear-gradient(to right,rgb(226, 59, 59), rgb(122, 74, 185));
+    width: 0%;
+  }
+.brand:hover{
+    background: linear-gradient(rgb(226, 59, 59), rgb(122, 74, 185));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    scale: 1.4;
+    transition: all 0.2s ease-in-out;
+
+}
+.brand2{
+    background: linear-gradient(rgb(226, 59, 59), rgb(122, 74, 185));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    scale: 1.4;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-size: 2rem;   
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+.robo{
+    position: relative;
+    scale: 0.8;
+    top: -0.5rem;
+    filter: invert(100%);
+    float: left;
+}
+.robo:hover{
+    scale:0.9;
+}

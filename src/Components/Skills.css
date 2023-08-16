@@ -1,0 +1,48 @@
+.heading{
+    text-shadow:  0.2rem 0px 0px black;
+    scale: 4;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    z-index: 1;
+    margin-top: 7rem;
+    transition: all 0.15s ease-in-out;
+
+}
+.heading:hover{
+    scale: 4.4;
+    transition: all 0.15s ease-in-out;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.skills-card:hover{
+    transform: scale(1.2);
+    transition: all 0.15s ease-in-out;
+    
+}
+.skills-card{
+    transition: all 0.15s ease-in-out;
+    position: relative;
+    left: 4rem;
+}
+.child{
+    scale: 0.5;
+    margin-top: -15rem;
+}
+.heading2{
+    text-shadow:  0.2rem 0px 0px black;
+    scale: 4;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    z-index: 1;
+    margin-top: 7rem;
+    transition: all 0.15s ease-in-out;
+
+}

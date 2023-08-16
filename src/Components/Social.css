@@ -1,0 +1,10 @@
+.robo2{
+    scale:0.2;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    left: 4rem;
+}
+.robo2:hover{
+    scale: 0.24;
+    transition: all 0.5s ease-in-out;
+}
