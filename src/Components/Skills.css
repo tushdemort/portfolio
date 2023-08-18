@@ -15,10 +15,7 @@
     scale: 4.4;
     transition: all 0.15s ease-in-out;
 }
-.wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
+
 .skills-card:hover{
     transform: scale(1.2);
     transition: all 0.15s ease-in-out;

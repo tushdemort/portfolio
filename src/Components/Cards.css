@@ -11,6 +11,11 @@
     border: rgb(153, 51, 73) 2px solid;
     transition: all 0.2s ease-in-out;
 }
+.card-body{
+    background: rgb(43, 36, 46);
+    color: white;
+    height: 15rem;
+}
 .btn:hover{
     scale: 1;
 }
@@ -18,8 +23,6 @@
     background: linear-gradient(45deg,rgb(226, 59, 59), rgb(122, 74, 185));
     margin-left: 5rem;
     border: none;
-}
-.card-body{
-    background: rgb(43, 36, 46);
-    color: white;
+    position: relative;
+    bottom:0rem;
 }
