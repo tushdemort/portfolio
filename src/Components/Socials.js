@@ -10,7 +10,7 @@ export class Socials extends Component {
   render() {
     return (
         <>
-        <p className='heading'>Socials</p>
+        <p className='heading' id='socials'>Socials</p>
         <br/>
         <br/>
         <br/>

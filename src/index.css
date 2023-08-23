@@ -5,6 +5,7 @@ body{
   background-color: black;
 }
 html,body{
+  aspect-ratio: auto;
   width: 100vw;
   overflow-x: clip;
 }
