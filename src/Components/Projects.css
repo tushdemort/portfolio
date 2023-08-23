@@ -18,6 +18,40 @@
     transition: all 0.15s ease-in-out;
 }
 .wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper> div {
+    border:1px solid #000;/* only for showing here */
+    min-height:20px;/* only for showing here */
+  }
+  @media all and (min-width: 401px) {
+  
+      .wrapper> div {
+          width: 33%;
+      }
+  }
+  
+  @media all and (max-width: 400px) {
+      .wrapper> div {
+          width: 100%;    
+      }
+      .cell1 {
+          order: 0;
+      }
+      .cell2 {
+          order: 1;
+      }
+      .cell3 {
+          order: 4;
+      }
+      .cell4 {
+          order: 2;
+      }
+      .cell5 {
+          order: 3;
+      }
+      .cell6 {
+          order: 5;
+      }   
   }
