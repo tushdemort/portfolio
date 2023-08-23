@@ -4,3 +4,7 @@
 body{
   background-color: black;
 }
+html,body{
+  width: 100vw;
+  overflow-x: clip;
+}

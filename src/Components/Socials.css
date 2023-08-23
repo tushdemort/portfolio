@@ -1,0 +1,26 @@
+.social{
+    margin-top: 10rem;
+    background: linear-gradient(90deg, rgb(226, 59, 59), rgb(122, 74, 185));
+    height: 0.1rem;
+    width: 100%;
+}
+.social-links{
+    scale: 0.2;
+    margin-top: -10rem;
+    margin-left: -10rem;
+    filter: brightness(100%) !important;
+}
+.contact{
+    float: right;
+    scale: 1.5;
+    margin-right: 10rem;
+    margin-top: 80px;
+    transition: all ease-in-out 0.3s;
+}
+.contact:hover{
+    scale:1.6;
+}
+.social-links:hover{
+    scale:0.25;
+    transition: all ease-in-out 0.3s;
+}
